@@ -14,7 +14,8 @@ Moving the gate to level 40 **lowered 7-day retention by 0.82 percentage points*
 
 ## Data
 
-Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 players after removing one extreme outlier). The data file is not included in this repo; download it from Kaggle and place it next to the script.
+Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 players after removing one extreme outlier). The data file is not included in this repo; download it from Kaggle and place it next to the script. 
+Link to dataset: https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats?resource=download
 
 ## Method
 
@@ -34,7 +35,7 @@ Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 pl
 
 ## Files
 
-- `ab_test_cookie_cats_full.py`: full analysis (run top to bottom or one `# %%` cell at a time)
+- `a_b_testing.py`: full analysis 
 - `retention7_by_version.png`, `retention7_by_segment.png`: charts
 - `recommendation.pdf`: one-page recommendation
 - `spss_chi_square.png`: SPSS crosstab and chi-square output
@@ -43,7 +44,7 @@ Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 pl
 
 ```
 pip install pandas numpy scipy matplotlib seaborn
-python ab_test_cookie_cats_full.py
+python a_b_testing.py
 ```
 
 Set `PATH` at the top of the script to where you saved `cookie_cats.csv`.
