@@ -14,9 +14,9 @@ Moving the gate to level 40 **lowered 7-day retention by 0.82 percentage points*
 
 ## Data
 
-Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 players after removing one extreme outlier). The data file is not included in this repo; download it from Kaggle and place it next to the script. 
-Link to dataset: https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats?resource=download
-
+Public "Mobile Games A/B Testing – Cookie Cats" dataset from Kaggle (90,188 players after removing one extreme outlier). The data file is not included in this repo; [download](https://www.kaggle.com/datasets/mursideyarkin/mobile-games-ab-testing-cookie-cats?resource=download
+) it from Kaggle and place it next to the script. 
+Link to dataset: 
 ## Method
 
 1. Hypothesis, primary metric (7-day retention) and alpha (0.05) written before analysis
