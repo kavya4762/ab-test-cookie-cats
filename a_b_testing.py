@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import chi2_contingency, chisquare, norm
 
-PATH = "/content/drive/MyDrive/Projects/A B/cookie_cats.csv"
+PATH = "cookie_cats.csv"
 ALPHA = 0.05
 CONTROL, TEST = "gate_30", "gate_40"
 
